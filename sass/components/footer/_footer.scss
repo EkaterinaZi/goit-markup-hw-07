@@ -1,0 +1,32 @@
+@import './footer-input';
+@import './footer-contacts';
+
+.footer {
+    background-color: var(--background);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.card div:first-child {
+    margin-right: 70px;
+}
+
+.footer-thumb {
+    width: 231px;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 20px;
+
+    font-family: Raleway;
+    @include font(700, 26px, 1.19, 0.03em);
+    color: #ffffff;
+}
+

@@ -1,0 +1,31 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+}
+.nav-list,
+.contacts,
+.features-list,
+.work-list,
+.team-list,
+.footer-list,
+.portfolio,
+.button-list,
+.clients-list,
+.social-icons-list {
+    list-style: none;
+    padding: 0;
+}
+
+.header-logo,
+.nav-link,
+.contact-list,
+.footer-logo,
+.footer-contacts {
+    text-decoration: none;
+}

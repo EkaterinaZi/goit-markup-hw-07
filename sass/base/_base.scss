@@ -1,0 +1,17 @@
+@import './reset';
+
+body {
+    font-family: var(--main-font);
+    background-color: #fff;
+    color: var(--primary-text-color);
+    @include font(null, 14px, 1.17, 0.03em);
+}
+
+img {
+    display: block;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
